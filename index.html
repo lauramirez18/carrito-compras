@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Moulpali&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Taprom&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <title>LuxeRaffiné</title>
+</head>
+
+<body>
+    <button class="button2" onclick="enviarWhatsapp()">
+
+        <svg viewBox="0 0 48 48" y="0px" x="0px" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"
+                fill="#fff"></path>
+            <path
+                d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"
+                fill="#fff"></path>
+            <path
+                d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"
+                fill="#cfd8dc"></path>
+            <path
+                d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"
+                fill="#40c351"></path>
+            <path clip-rule="evenodd"
+                d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z"
+                fill-rule="evenodd" fill="#fff"></path>
+        </svg>
+    </button>
+
+    <header>
+
+
+        <div class="logo">
+            <a href="perfumesOriginal.html"><img
+                    src="https://i.pinimg.com/736x/8b/bd/c3/8bbdc3e1e413f6ed87aee509c8ed14bd.jpg" alt="">
+                <div class="textlogo">
+                    <p class="namestore"><span>L</span>uxe<strong><span>R</span>affiné</strong></p>
+                    <p class="myname"> By Laura Ramirez</p>
+            </a>
+        </div>
+        </div>
+        <div class="categorias">
+            <ul>
+                <li><a href="">Mujer</a>
+                    <ul class="submenu">
+                        <li><a href="">Dulces</a></li>
+                        <li><a href="">Citricos</a></li>
+                        <li><a href="">Frutales</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Hombre</a>
+                    <ul class="submenu">
+                        <li><a href="">Dulces</a></li>
+                        <li><a href="">Citricos</a></li>
+                        <li><a href="">Frutales</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Unisex</a>
+                    <ul class="submenu">
+                        <li><a href="">Dulces</a></li>
+                        <li><a href="">Citricos</a></li>
+                        <li><a href="">Frutales</a></li>
+                    </ul>
+                </li>
+                <a href="">
+                    <li>Descuentos
+                </a></li>
+            </ul>
+        </div>
+        <div class="cuenta">
+            <i class="fa fa-bars" id="btn-menu" aria-hidden="true"></i>
+            <div class="menu">
+                <div class="contenedor-menu">
+                    <p class="close-menu">x</p>
+                    <h2>Menú</h2>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Mujer</a></li>
+                        <li><a href="">Hombre</a></li>
+                        <li><a href="">Unisex</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="input-wrapper">
+                <button class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="20px" width="20px">
+                        <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#fff"
+                            d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z">
+                        </path>
+                        <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#fff"
+                            d="M22 22L20 20"></path>
+                    </svg>
+                </button>
+                <input placeholder="Buscar.." class="input" name="text" type="text">
+            </div>
+            <a href=""><i class="fa fa-user-o" id="btn-user" aria-hidden="true"></i></a>
+            <p><i class="fa fa-cart-plus" id="car" aria-hidden="true"></i> <span id="conteo">0</span></p>
+        </div>
+        <div id="tucarrito">
+
+            <h2>Tu Carrito</h2>
+            <div class="encabezado">
+                <p></p>
+                <p>Producto</p>
+                <p>SubTotal</p>
+                <p></p>
+            </div>
+            <div id="cart-content">
+
+
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <div class="botones-carrito">
+                <button id="btn-vaciar" type="button" onclick="vaciarCarrito()">Vaciar carrito</button>
+                <button type="button" id="btn-buy">Comprar ahora</button>
+
+            </div>
+
+            <i class="fa fa-times" id="close-tucarrito" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div class="container">
+        <div class="carrusel">
+            <ul>
+                <li>
+                    <img src="https://pi-parfums.com/wp-content/uploads/2023/02/Unbenannt-1.jpg" alt="">
+                </li>
+                <li>
+                    <img src="https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="">
+                </li>
+                <li>
+                    <img src="https://images.pexels.com/photos/14490637/pexels-photo-14490637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="">
+                </li>
+                <li class="img4">
+                    <img src="https://images.pexels.com/photos/3633850/pexels-photo-3633850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="">
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div>
+        <h2 class="subtittle">Lo más vendido</h2>
+    </div>
+
+    <div id="container-productos">
+
+
+    </div>
+    <footer>
+        <div class="information">
+            <h3>Information</h3><br>
+            <ul>
+                <li>Help</li>
+                <li>Track order</li>
+                <li>Delivery & returns</li>
+                <li>Sitemap</li>
+            </ul>
+        </div>
+
+        <div class="about">
+            <h3>About LuxeRaffine</h3><br>
+            <ul>
+                <li>About us</li>
+                <li>Careers at ASOS</li>
+                <li>Corporate responsibility</li>
+                <li>Investor's site</li>
+            </ul>
+        </div>
+
+        <div class="more-from">
+            <h3>More From LuxeRaffine </h3><br>
+            <ul>
+                <li>Mobile and LuxeRaffine apps</li>
+                <li>LuxeRaffine Marketplace</li>
+                <li>Black Friday</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h3>Contact</h3><br>
+            <p class="direccion"> <i class="fa fa-map-marker" aria-hidden="true"></i> Avda. Bicentenario, 41, Archidona
+                29300</p>
+            <p class="direccion"> <i class="fa fa-phone" aria-hidden="true"></i> 322 701 4169</p>
+            <div class="iconsRedes">
+
+                <ul class="wrapper">
+                    <li class="icon facebook">
+                        <span class="tooltip">Facebook</span>
+                        <svg viewBox="0 0 320 512" height="16px" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                            </path>
+                        </svg>
+                    </li>
+                    <li class="icon twitter">
+                        <span class="tooltip">Twitter</span>
+                        <svg height="20px" fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"
+                            class="twitter">
+                            <path
+                                d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429">
+                            </path>
+                        </svg>
+                    </li>
+                    <li class="icon instagram">
+                        <span class="tooltip">Instagram</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="17px" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                            </path>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let perfumes = [
+            {
+                id: 1,
+                nombre: "N°5 Chanel",
+                img: "https://images.pexels.com/photos/21008920/pexels-photo-21008920/free-photo-of-petalos-flor-naturaleza-muerta-perfume.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2hover.jpeg",
+                imgHover: "https://emporiodutyfree.com/wp-content/uploads/2017/04/N%C2%B0-5-perfume-100ml.jpg",
+                precio: 950000
+            },
+            {
+                id: 2,
+                nombre: "My Way",
+                img: "https://acdn.mitiendanube.com/stores/001/990/352/products/my-way-feminino-le-parfum-1-26c157b692285b034d17163413694562-640-0.png",
+                imgHover: "https://blind.vteximg.com.br/arquivos/ids/171320-1000-1000/3614272907676_1.jpg?v=637535461464400000",
+                precio: 622000,
+            },
+            {
+                id: 3,
+                nombre: "Pure XS",
+                img: "https://images.pexels.com/photos/18462574/pexels-photo-18462574/free-photo-of-lujo-rosa-rosado-paquete.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+                imgHover: "https://attoperfumes.com.co/cdn/shop/products/XsPureDm.jpg?v=1652729017",
+                precio: 700000
+            },
+            {
+                id: 4,
+                nombre: "Farmasi Cheer",
+                img: "https://images.pexels.com/photos/13074476/pexels-photo-13074476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                imgHover: "https://cdn1.hendyla.com/archivos/imagenes/2024/05/03/37a6259cc0c1dae299a7866489dff0bd5dV96M8nWY7G440064195_3739909742897940_3707394419101391643_n-830_A.jpg",
+                precio: 230000
+            },
+            {
+                id: 5,
+                nombre: "Absolute By Elite",
+                img: "https://i.pinimg.com/564x/48/29/3d/48293d93c6c0e0a4596d49e92f3e7f98.jpg",
+                imgHover: "https://i.ebayimg.com/images/g/kDsAAOSw9KZmQzOT/s-l1200.jpg",
+                precio: 200000
+            },
+            {
+                id: 6,
+                nombre: "Eau de la Couronne",
+                img: "https://images.pexels.com/photos/11648786/pexels-photo-11648786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                imgHover: "https://www.worldofwatches.com/media/catalog/product/cache/6275b0637049ab4262e9abf2e63a6f54/r/a/rance-1795-ladies-rue-rance-eau-de-la-couronne-edt-spray-3-4-oz-fragrances-80-z-rtnlt_1.jpg",
+                precio: 890000
+            },
+            {
+                id: 7,
+                nombre: "Jadore Dior",
+                img: "https://images.pexels.com/photos/17945897/pexels-photo-17945897/free-photo-of-belleza-botella-naturaleza-muerta-perfume.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                imgHover: "https://m.media-amazon.com/images/I/51JxmbBEAEL._AC_UF350,350_QL80_.jpg",
+                precio: 770000
+            },
+            {
+                id: 8,
+                nombre: "Davidoff Adventure",
+                img: "https://images.pexels.com/photos/7755627/pexels-photo-7755627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                imgHover: "https://gquick.com/wp-content/uploads/2023/04/71hffPDC9AL._SL1500_-optimized.jpg",
+                precio: 1000000
+            },
+            {
+                id: 9,
+                nombre: "Fahrenheit Dior",
+                img: "https://fragancia506.com/wp-content/uploads/2023/08/Dior-Fahrenheit2.jpeg",
+                imgHover: "https://www.shutterstock.com/image-photo/nottingham-uk-december-11-2017-600nw-772925785.jpg",
+                precio: 515000
+            },
+            {
+                id: 10,
+                nombre: "Iron Duke",
+                img: "https://english-scent.de/cdn/shop/products/beaufort_london_iron_duke_english_scent.jpg?v=1677506440",
+                imgHover: "https://m.media-amazon.com/images/I/61JyfvLVfQL.jpg",
+                precio: 900000
+            },
+            {
+                id: 11,
+                nombre: " Tharros",
+                img: "https://photos.enjoei.com.br/perfume-tharros-da-korres-100-ml/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8zMDQ2MTk3NS8yZTZkZjVjYTc0NTg2Y2MxMTkwYjY5ODJiYThkZjJlZS5qcGc",
+                imgHover: "https://down-br.img.susercontent.com/file/b52f0422c09b67a2a55174f673714fa5",
+                precio: 340000
+            },
+            {
+                id: 12,
+                nombre: "Atkinsons ",
+                img: "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/15/151/1628/720/146/905911660/905911660_3_720x928.webp",
+                imgHover: "https://mainstreetmde.co/cdn/shop/products/OUDSAVETHEQUEEN.jpg?v=1642717550",
+                precio: 770000
+            },
+        ];
+
+        let lista = [];
+
+        function crear(productos) {
+            let contenedortargetas = document.getElementById("container-productos");
+            productos.forEach(producto => {
+                let nuevoproducto = document.createElement("div");
+                nuevoproducto.classList = "tarjeta-producto";
+                nuevoproducto.innerHTML = `
+            <div class="producto-img" data-hover="${producto.img}">
+            <img src="${producto.img}" class="img-normal" alt="${producto.nombre}">
+            <img src="${producto.imgHover}" class="img-hover" alt="${producto.nombre}">
+            </div>
+            <h3>${producto.nombre}</h3>
+            <p>${formatoMoneda(producto.precio)}</p>
+            <button onclick="agregarAlCarrito(${producto.id})">Agregar al carrito</button>
+        `;
+                contenedortargetas.appendChild(nuevoproducto);
+            });
+        }
+        crear(perfumes)
+
+        function agregarAlCarrito(id) {
+            let producto = perfumes.find(p => p.id === id);
+            if (producto) {
+                let itemEnCarrito = lista.find(item => item.id === id);
+                if (itemEnCarrito) {
+                    itemEnCarrito.cantidad++;
+                } else {
+                    lista.push({ ...producto, cantidad: 1 });
+                }
+                actualizarCarrito();
+            }
+
+            Swal.fire({
+                title: '¡Producto "' + producto.nombre + '"" agregado al carrito!',
+                icon: 'success',
+                toast: true,
+                position: 'top-start',
+                showConfirmButton: false,
+                timer: 1800,
+                timerProgressBar: true,
+
+            });
+        }
+
+        function vaciarCarrito() {
+            lista = [];
+            actualizarCarrito();
+        }
+
+
+
+        iconobar = document.getElementById("btn-menu");
+        modalmenu = document.querySelector(".menu");
+        closemenu = document.querySelector(".close-menu");
+
+        iconobar.addEventListener("click", () => {
+            modalmenu.classList.add("active")
+        });
+
+        closemenu.addEventListener("click", () => {
+            modalmenu.classList.remove("active")
+        });
+
+        let iconocar = document.getElementById("car");
+        let modalcarrito = document.getElementById("tucarrito");
+        let closemodal = document.getElementById("close-tucarrito");
+
+        iconocar.addEventListener("click", () => {
+            modalcarrito.classList.add("active")
+        });
+        closemodal.addEventListener("click", () => {
+            modalcarrito.classList.remove("active")
+        });
+
+        function actualizarCarrito() {
+            let carrito = document.getElementById("cart-content");
+            carrito.innerHTML = "";
+
+            lista.forEach(item => {
+                let itemCarrito = document.createElement("div");
+                itemCarrito.classList.add("carrito-box")
+                itemCarrito.innerHTML = `
+            <img src=${item.img} id="carrito-img">
+            <div id="detail-box">
+            <h3 id="carrito-producto-tittle">${item.nombre}</h3>
+            <p id="carrito-precio">${formatoMoneda(item.precio)}</p>
+            <input  type="number" value="${item.cantidad}" min="1" id="carrito-quantify" data-id="${item.id}">
+            </div>
+            <div id=subtotal>
+             <p id=preciosubtotal>${formatoMoneda(item.precio * item.cantidad)}</p>   
+            </div> 
+            <button id="carrito-remove" onclick="removerDelCarrito(${item.id})"><i class="fa fa-trash" aria-hidden="true"></i></button>
+        `;
+                carrito.appendChild(itemCarrito);
+            });
+
+
+            document.getElementById('conteo').textContent = lista.length;
+
+            document.querySelectorAll("#carrito-quantify").forEach(input => {
+                input.addEventListener("change", (event) => {
+                    let id = parseInt(event.target.getAttribute("data-id"));
+                    let nuevacantidad = parseInt(event.target.value);
+                    actualizarcantidad(id, nuevacantidad);
+                })
+            })
+
+            actualizarTotal();
+        }
+
+        function removerDelCarrito(id) {
+            lista = lista.filter(item => item.id !== id);
+            actualizarCarrito();
+        }
+
+        function actualizarcantidad(id, nuevacantidad) {
+            let producto = lista.find(item => item.id === id);
+            if (producto) {
+                producto.cantidad = nuevacantidad;
+                actualizarCarrito();
+            }
+        }
+
+        function actualizarTotal() {
+            let total = lista.reduce((sum, item) => sum + item.precio * item.cantidad, 0);
+            document.querySelector(".total-price").innerText = `${formatoMoneda(total)}`;
+        }
+
+
+
+        function formatoMoneda(numero) {
+            return new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP', minimumFractionDigits: 0 }).format(numero);
+        }
+
+        function enviarWhatsapp() {
+            const telefono = '+57 3227014169';
+            const msj = '¡Hola!, quiero más información sobre Perfumes';
+            const url = `https://api.whatsapp.com/send?phone=${telefono}&text=${msj}`;
+
+            window.open(url, '_blank');
+        }
+
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            position: relative;
+            height: 100vh;
+            background-color: rgb(245, 245, 245);
+            display: flex;
+            flex-direction: column;
+            color: rgb(0, 0, 0);
+            z-index: 1;
+        }
+
+        .button2 {
+
+            transition: all 0.2s ease-in;
+            position: fixed;
+            overflow: hidden;
+            z-index: 1;
+            color: #090909;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 50%;
+            background: #000000;
+            border: 1px solid #e8e8e8;
+            box-shadow: 1px 1px 10px #c5c5c5,
+                -1px -1px 10px #ffffff;
+            cursor: pointer;
+
+            bottom: 20px;
+            right: 5px;
+
+
+        }
+
+        .button2>svg {
+            height: 30px;
+
+            margin-top: -4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .button2:active {
+            color: #666;
+            box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+        }
+
+        .button2:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%) scaleY(1) scaleX(1.25);
+            top: 100%;
+            width: 140%;
+            height: 180%;
+            background-color: rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
+            display: block;
+            transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+            z-index: -1;
+        }
+
+        .button2:after {
+            content: "";
+            position: absolute;
+            left: 55%;
+            transform: translateX(-50%) scaleY(1) scaleX(1.45);
+            top: 180%;
+            width: 160%;
+            height: 190%;
+            background-color: #009087;
+            border-radius: 50%;
+            display: block;
+            transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+            z-index: -1;
+        }
+
+        .button2:hover {
+            color: #ffffff;
+            border: 1px solid #009087;
+        }
+
+        .button2:hover:before {
+            top: -35%;
+            background-color: #009087;
+            transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+        }
+
+        .button2:hover:after {
+            top: -45%;
+            background-color: #009087;
+            transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+        }
+
+
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        header {
+            position: fixed;
+            z-index: 2;
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #000000;
+            color: white;
+            padding: 7px 0px 0px;
+
+        }
+
+        #btn-menu {
+            display: none;
+            font-size: 20px;
+        }
+
+        .contenedor-menu {
+            display: none;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 70px;
+            height: 90px;
+            border-radius: 50%;
+
+
+
+        }
+
+        .textlogo {
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        .namestore {
+            display: flex;
+            font-size: 25px;
+            align-content: end;
+            margin: 0px;
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+        }
+
+
+
+        .myname {
+
+            font-family: "Grey Qo", cursive;
+            font-weight: 400;
+            font-style: normal;
+
+            letter-spacing: 3px;
+            padding-left: 5px;
+            font-size: 20px;
+
+
+        }
+
+
+        ul {
+
+            display: flex;
+            list-style: none;
+            flex-direction: row;
+            align-items: flex-end;
+            gap: 7px;
+            font-size: 20px;
+            font-family: "Moulpali", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+        }
+
+        li {
+            width: 120px;
+        }
+
+        li:hover {
+            color: #DDB886;
+            border-bottom: 2px solid #DDB886;
+
+        }
+
+        .submenu {
+            position: absolute;
+            display: flex;
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            padding: 0px;
+
+        }
+
+        .submenu li {
+            background-color: black;
+        }
+
+        .submenu li:hover {
+            background-color: #434343;
+        }
+
+        .categorias li:hover>.submenu {
+            display: block;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .input-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            position: relative;
+        }
+
+        .input {
+            display: flex;
+            border-style: none;
+            height: 35px;
+            width: 30px;
+            padding: 0px;
+            outline: none;
+            border-radius: 50%;
+            transition: .5s ease-in-out;
+            background-color: #000000;
+            padding-right: 40px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: white;
+
+
+        }
+
+        .input::placeholder,
+        .input {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .input::placeholder {
+            color: #8f8f8f;
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 0px;
+            bottom: 7px;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            outline: none;
+            border-style: none;
+            border-radius: 50%;
+            pointer-events: painted;
+            background-color: transparent;
+            transition: .2s linear;
+            color: white;
+        }
+
+        .icon:focus~.input,
+        .input:focus {
+            box-shadow: none;
+            width: 200px;
+            border-radius: 0px;
+            background-color: transparent;
+            border-bottom: 2px solid #DDB886;
+            transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+        }
+
+        .cuenta {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            color: white;
+
+        }
+
+        .cuenta i {
+            font-size: 20px;
+            color: #ffffff;
+            transition: 200ms;
+        }
+
+        .cuenta i:hover {
+            color: #FFC0CB;
+            font-size: 22px;
+
+        }
+
+        #btn-user {
+            position: relative;
+            bottom: 6px;
+        }
+
+        #car {
+            position: relative;
+            cursor: pointer;
+            bottom: 6px;
+        }
+
+        #conteo {
+            position: absolute;
+            display: inline-block;
+            width: 15px;
+            aspect-ratio: 1;
+            font-weight: 700;
+            font-size: 10px;
+            opacity: 1;
+            transition: .3s ease-in-out;
+            background-color: #E5A65E;
+            text-align: center;
+            line-height: 15px;
+            border-radius: 100%;
+            top: -8px;
+            color: black;
+        }
+
+        #tucarrito {
+            position: fixed;
+            top: 0;
+            right: 0;
+            right: -100%;
+            width: 400px;
+            height: 100vh;
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding: 20px;
+            background-color: rgb(0, 0, 0);
+            transition: 1.7s;
+            overflow-y: auto;
+            z-index: 40;
+        }
+
+        #tucarrito::-webkit-scrollbar {}
+
+        #tucarrito.active {
+            right: 0;
+            transition: .5s;
+
+        }
+
+        #close-tucarrito {
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+
+
+        #tucarrito h2 {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 25px;
+        }
+
+        .encabezado {
+            display: grid;
+            grid-template-columns: 27% 25% 25% 18%;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 14px;
+            font-family: "Moulpali", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+
+        .carrito-box {
+            display: grid;
+            grid-template-columns: 27% 25% 25% 18%;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 20px;
+
+        }
+
+        #carrito-img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+
+        }
+
+        #detail-box {
+            display: grid;
+
+        }
+
+        #carrito-producto-tittle {
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+
+        #carrito-precio {
+            font-weight: 500;
+            padding: 0;
+        }
+
+        #carrito-quantify {
+            border: 1px solid white;
+            outline-color: black;
+            width: 40px;
+            text-align: center;
+            font-size: 1rem;
+
+        }
+
+        #carrito-remove {
+            font-size: 20px;
+            color: white;
+            background-color: #000000;
+            cursor: pointer;
+            position: relative;
+            transition: 200ms;
+            width: 40px;
+
+        }
+
+        #subtotal {
+            display: grid;
+            font-size: 15px;
+            font-weight: 600
+        }
+
+
+        #preciosubtotal {
+            font-weight: 500;
+        }
+
+        #carrito-remove:hover {
+            color: red;
+            font-size: 26px;
+        }
+
+        .total {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 1.5rem;
+            border-top: 1px solid white;
+        }
+
+        .total-title {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .total-price {
+            margin-left: .5rem;
+        }
+
+        .botones-carrito {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #btn-buy {
+            display: flex;
+            margin: 1.5rem auto 0 auto;
+            padding: 12px 20px;
+            border: none;
+            background-color: #DDB886;
+            color: black;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: .4s;
+        }
+
+        #btn-buy:hover {
+            background-color: #E5A65E;
+            font-size: 1.1rem;
+        }
+
+        #btn-vaciar {
+            display: flex;
+            margin: 1.5rem auto 0 auto;
+            padding: 12px 20px;
+            border: none;
+            background-color: #DDB886;
+            color: black;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: .4s;
+        }
+
+        #btn-vaciar:hover {
+            background-color: #ff000061;
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        #close-tucarrito {
+            position: absolute;
+            top: 1rem;
+            right: .8rem;
+            font-size: 1rem;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+        }
+
+        .carrusel {
+            padding-top: 97px;
+            width: 100vw;
+            height: auto;
+            overflow: hidden;
+
+
+        }
+
+        .carrusel ul {
+            display: flex;
+            width: 400%;
+            padding-left: 0%;
+            animation: slide 20s infinite alternate ease-in-out;
+        }
+
+        .carrusel li {
+            width: 100%;
+            list-style: none;
+        }
+
+        .carrusel img {
+            height: 600px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        @keyframes slide {
+            0% {
+                margin-left: 0;
+            }
+
+            20% {
+                margin-left: 0;
+            }
+
+            25% {
+                margin-left: -100%;
+            }
+
+            45% {
+                margin-left: -100%;
+            }
+
+            50% {
+                margin-left: -200%;
+            }
+
+            70% {
+                margin-left: -200%;
+            }
+
+            75% {
+                margin-left: -300%;
+            }
+
+            100% {
+                margin-left: -300%;
+            }
+
+        }
+
+        .img4 {
+            height: auto;
+
+
+        }
+
+        .subtittle {
+            font-family: "Girassol", serif;
+            font-weight: 500;
+            font-style: normal;
+            text-align: center;
+            padding: 20px 0px;
+            font-size: 35px;
+        }
+
+        #container-productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            padding: 20px 50px 50px;
+
+        }
+
+        .tarjeta-producto {
+            width: 240px;
+            text-align: center;
+            color: black;
+            background-color: white;
+            border-radius: 10px 10px 10px 10px;
+            box-sizing: border-box;
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            font-size: 14px;
+            box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.30);
+            transition: 200ms;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+
+        }
+
+        .tarjeta-producto:hover {
+            translate: 0px -10px;
+            box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.20);
+
+        }
+
+        .producto-img {
+            width: 240px;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 10px 10px 0px 0px;
+            position: relative;
+            overflow: hidden;
+        }
+
+
+        .img-normal,
+        .img-hover {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .img-hover {
+            opacity: 0;
+        }
+
+        .producto-img:hover .img-hover {
+            opacity: 1;
+        }
+
+        .producto-img:hover .img-normal {
+            opacity: 0;
+        }
+
+        .tarjeta-producto h3 {
+            padding-top: 15px;
+            font-size: 20px;
+        }
+
+        .tarjeta-producto button {
+
+            padding: 10px 15px;
+            margin-bottom: 15px;
+            font-size: small;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #DDB886;
+            border: none;
+            font-weight: 500;
+            transition: .4s;
+        }
+
+        .tarjeta-producto button:hover {
+            background-color: #E5A65E;
+            font-size: 14px;
+        }
+
+        footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr 2fr;
+            padding: 20px 36px 10px 0px;
+            gap: 3em;
+            font-size: 12px;
+            background-color: #000000;
+            color: white;
+
+
+        }
+
+        footer ul {
+            list-style-position: inside;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            text-align: start;
+
+        }
+
+
+        footer h3 {
+            font-size: small;
+            text-align: center;
+        }
+
+        .more-from li {
+
+            text-align: left;
+        }
+
+        .contact p {
+            margin: 5px 20px 10px;
+            text-align: center;
+        }
+
+        .iconsRedes ul {
+            display: flex;
+            flex-direction: row;
+            color: #000000;
+
+        }
+
+        .wrapper {
+            display: inline-flex;
+            list-style: none;
+            width: 100%;
+            padding-top: 27px;
+            font-family: "Poppins", sans-serif;
+            justify-content: center;
+        }
+
+        .wrapper .icon {
+            position: relative;
+            background: #fff;
+            border-radius: 50%;
+            margin: 10px;
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0 10px 10px rgba(255, 255, 255, 0.1);
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            color: black;
+        }
+
+        .wrapper .tooltip {
+            position: absolute;
+            top: 0;
+            font-size: 14px;
+            background: #fff;
+            color: #fff;
+            padding: 5px 8px;
+            border-radius: 5px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .tooltip::before {
+            position: absolute;
+            content: "";
+            height: 8px;
+            width: 8px;
+            background: #fff;
+            bottom: -3px;
+            left: 50%;
+            transform: translate(-50%) rotate(45deg);
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .icon:hover .tooltip {
+            top: -45px;
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+
+        .wrapper .icon:hover span,
+        .wrapper .icon:hover .tooltip {
+            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .wrapper .facebook:hover,
+        .wrapper .facebook:hover .tooltip,
+        .wrapper .facebook:hover .tooltip::before {
+            background: #1877f2;
+            color: #fff;
+        }
+
+        .wrapper .twitter:hover,
+        .wrapper .twitter:hover .tooltip,
+        .wrapper .twitter:hover .tooltip::before {
+            background: #1da1f2;
+            color: #fff;
+        }
+
+        .wrapper .instagram:hover,
+        .wrapper .instagram:hover .tooltip,
+        .wrapper .instagram:hover .tooltip::before {
+            background: #e4405f;
+            color: #fff;
+        }
+
+
+        @media(max-width:900px) {
+
+            header ul {
+                display: none;
+            }
+
+            #btn-menu {
+                display: flex;
+                justify-content: flex-start;
+
+            }
+
+            header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 10px 0px 10px 0px;
+            }
+
+            .menu {
+                position: fixed;
+                top: 0;
+                left: 0;
+                left: -100%;
+                width: auto;
+                height: auto;
+                overflow-y: auto;
+                overflow-x: hidden;
+                padding: 20px;
+                background-color: rgba(0, 0, 0, 0.898);
+                transition: 1.7s;
+                display: flex;
+                cursor: pointer;
+
+            }
+
+            .menu.active {
+                left: 0;
+                transition: .5s;
+            }
+
+            .contenedor-menu {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                color: white;
+
+            }
+
+            .close-menu {
+                position: absolute;
+                right: 0px;
+            }
+
+            .contenedor-menu h2 {
+                margin-bottom: 20px;
+                border-bottom: 1px solid wheat;
+                text-align: center;
+                display: flex;
+            }
+
+            .contenedor-menu ul {
+                display: flex;
+                flex-direction: column;
+                padding-left: 0px;
+
+                color: white
+            }
+
+            .carrusel li img {
+                width: 100%;
+                object-fit: cover;
+                aspect-ratio: 1/1;
+                height: 400px;
+            }
+
+
+            footer {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+
+        }
+    </style>
+</body>
+
+</html>
